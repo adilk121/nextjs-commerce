@@ -72,7 +72,7 @@ export default async function ProductPage({ params }: { params: { handle: string
             }))}
           />
         </div>
-
+<!-- All files-->
         <div className="p-6 lg:col-span-2">
           {/* @ts-expect-error Server Component */}
           <VariantSelector options={product.options} variants={product.variants} />
